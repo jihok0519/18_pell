@@ -14,3 +14,66 @@ body {
     line-height: 1.8;
     background-color: var(--bg1);
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Dela Gothic One", 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    background: linear-gradient(to bottom,#1B1F34, rgba(27, 31, 52, 0.2))
+}
+
+.navbar-brand {
+    font-family: "Dela Gothic One", 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+}
+
+/* HERO */
+
+#hero {
+    background: linear-gradient(to right,#1B1F34, rgba(27, 31, 52, 0)),  url(../img/cover_1.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+/* BUTTON */
+
+.btn {
+    padding: 16px 32px;
+    font-family: "Dela Gothic One", 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.4s ease;
+}
+
+.btn-brand {
+    background-color: var(--brand);
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+
+.btn-outline-brand {
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+
+.btn-outline-brand:hover {
+    background-color: var(--brand);
+}
