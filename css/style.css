@@ -36,6 +36,10 @@ section {
     background: linear-gradient(to bottom,#1B1F34, rgba(27, 31, 52, 0.2))
 }
 
+.navbar .navbar-nav .nav-link.active {
+    color: var(--brand);
+}
+
 .navbar-brand {
     font-family: "Dela Gothic One", 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 32px;
@@ -48,6 +52,11 @@ section {
     min-height: 100vh;
     background-position: center;
     background-size: cover;
+}
+
+#hero p {
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 /* BUTTON */
