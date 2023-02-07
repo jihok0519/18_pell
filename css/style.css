@@ -29,6 +29,14 @@ section {
     padding-bottom: 160px;
 }
 
+.info {
+    text-align: center;
+}
+
+#title {
+    padding: 250px;
+    text-align: center;
+}
 
 /* NAVBAR */
 
@@ -88,6 +96,6 @@ section {
 }
 
 #map {
-    height: 700px;
+    height: 650px;
     width: 100%;
 }
