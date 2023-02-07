@@ -33,6 +33,11 @@ section {
     text-align: center;
 }
 
+.info-para {
+    text-align: center;
+    font-family: "Inter", 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #title {
     padding: 250px;
     text-align: center;
@@ -98,4 +103,22 @@ section {
 #map {
     height: 650px;
     width: 100%;
+}
+
+.services-title {
+    text-align: center;
+}
+
+.services {
+    color: white;
+    font-size: 30px;
+    list-style: none;
+}
+
+.services-span {
+    float: right;
+}
+
+.portfolio-title {
+    text-align: center;
 }
