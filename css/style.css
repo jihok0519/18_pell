@@ -86,3 +86,8 @@ section {
 .btn-outline-brand:hover {
     background-color: white;
 }
+
+#map {
+    height: 700px;
+    width: 100%;
+}
