@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="remixicons/fonts/remixicon.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/video.js@7/dist/video-js.min.css"
+    />
 
     <title>18 Pell</title>
   </head>
@@ -50,8 +54,7 @@
             </li>
           </ul>
           <a href="#" class="btn btn-outline-brand ms-lg-4"
-            >Book an Appointment</a
-          >
+            >Book an Appointment</a>
         </div>
       </div>
     </nav>
@@ -128,10 +131,24 @@
         <div class="row">
           <div class="col-12 intro">
             <h1 class="portfolio-title">PORTFOLIO</h1>
-              <div id="photoArray">
-                <div class="col-5"><img class="hair1" src="img/hair1.jpg"/><img class="hair2" src="img/hair2.jpg"/></div>
-                <div class="col-4"><video class="video1" controls src="/media/video1.mp4"></div>
+            <div id="photoArray">
+              <div class="col-5">
+                <img class="hair1" src="img/hair1.jpg" /><img
+                  class="hair2"
+                  src="img/hair2.jpg"
+                />
               </div>
+              <div class="col-4">
+                <video class="video1 video-js" controls>
+                  <source src="/media/video1.mp4" />
+                </video>
+              </div>
+              <div class="col-6">
+                <video class="video2 video-js" controls>
+                  <source src="/media/video2.mp4" />
+                </video>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -145,10 +162,12 @@
     ></script>
     <script src="/js/app.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
     <script
       async
       src="https://pay.google.com/gp/p/js/pay.js"
       onload="onGooglePayLoaded()"
     ></script>
   </body>
+  <footer><a href="https://www.tiktok.com/@keiwaito?_t=8ZikyXj5Hck&_r=1"><img class="tiktok" src="img/tiktok.png">18Pell</a></footer>
 </html>
