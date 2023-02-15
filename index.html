@@ -1,173 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="remixicons/fonts/remixicon.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/video.js@7/dist/video-js.min.css"
-    />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>18 Pell</title>
-  </head>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="remixicons/fonts/remixicon.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/video.js@7/dist/video-js.min.css" />
+  <script src="js/app.js"></script>
+  <title>18 Pell</title>
+</head>
 
-  <body id="home" data-bs-spy="scroll" data-bs-target=".navbar">
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img
-            src="/img/18PellLogo.png"
-            alt="logo"
-            width="100"
-            height="100"
-            opacity="0"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#home">Home</a>
+<body id="home" data-bs-spy="scroll" data-bs-target=".navbar">
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="/img/18PellLogo.png" alt="logo" width="100" height="100" opacity="0" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+        </ul>
+        <a href="#" class="btn btn-outline-brand ms-lg-4">Book an Appointment</a>
+      </div>
+    </div>
+  </nav>
+  <!-- // NAVBAR -->
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="carousel_inner">
+      <div class="carousel_item carousel_item__active">
+        <img src="./img/hero_hair2.jpg" class="carousel_img">
+      </div>
+      <div class="carousel_item carousel_item__pos_next">
+        <video width="640" height="360" class="carousel-video" controls>
+          <source src="/media/hero_video1.mp4" class="carousel_img" type="video/mp4" />
+        </video>
+      </div>
+      <div class="carousel-item carousel_item__pos_next">
+        <video class="carousel-video" controls>
+          <source src="/media/hero_video2.mp4" class="carousel_img" type="video/mp4" />
+        </video>
+      </div>
+      <div class="carousel_item carousel_item__pos_next">
+        <img src="./img/hero_hair1.jpg" class="carousel_img">
+      </div>
+      <div class="carousel-item carousel_item__pos_next">
+        <video class="carousel-video" controls>
+          <source src="/media/hero_video3.mp4" class="carousel_img" type="video/mp4" />
+        </video>
+      </div>
+      <div id="title" class="col-lg-12">
+        <h1 class="display-4">It All Starts With A Vision</h1>
+        <a href="#" class="btn btn-brand">Reserve</a>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <!-- // HERO -->
+
+  <!-- LOCATION & HOURS -->
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 intro">
+          <h1 class="info">Location & Hours</h1>
+          <p class="info-para">
+            <strong>Address</strong>: 18 Pell St, New York, NY 10013 <br />
+            <strong>Phone</strong>: (212) 608 - 2588 <br />
+            <strong>Mon - Sat</strong> 9:00 A.M. - 8:00 P.M. <br />
+            <strong>Sun</strong> 9:00 A.M. - 7:30 P.M.<br />
+          </p>
+        </div>
+        <div id="map"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- // LOCATION & HOURS -->
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 intro">
+          <h1 class="services-title">SERVICES</h1>
+          <h2 class="services-title">
+            Experience world-class hair and beauty services
+          </h2>
+          <ul class="services">
+            <li>Men's Haircut<span class="services-span">$25+</span></li>
+            <li>Women's Haircut<span class="services-span">$40+</span></li>
+            <li>
+              Single Process & Blow<span class="services-span">$60+</span>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
+            <li>Balayage<span class="services-span">$170+</span></li>
+            <li>Omber<span class="services-span">$170+</span></li>
+            <li>
+              Japanese Straightening<span class="services-span">$230+</span>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
+            <li>Digital Perm<span class="services-span">$170+</span></li>
+            <li>Keratin Perm<span class="services-span">$180+</span></li>
+            <li>Regular Perm<span class="services-span">$100+</span></li>
           </ul>
-          <a href="#" class="btn btn-outline-brand ms-lg-4"
-            >Book an Appointment</a>
         </div>
       </div>
-    </nav>
-    <!-- // NAVBAR -->
+    </div>
+  </section>
+  <!-- // SERVICES -->
 
-    <!-- HERO -->
-    <section id="hero">
-      <div class="container">
-        <div class="row">
-          <div id="title" class="col-lg-12">
-            <h1 class="display-4">It All Starts With A Vision</h1>
-            <a href="#" class="btn btn-brand">Reserve</a>
-          </div>
-        </div>
+  <!-- PORTFOLIO -->
+
+  <section id="portfolio">
+    <h1 class="portfolio-title">PORTFOLIO</h1>
+    <div class="gallery">
+      <div class="gallery-item">
+        <img class="hair" src="img/hair1.jpg" />
       </div>
-    </section>
-    <!-- // HERO -->
-
-    <!-- LOCATION & HOURS -->
-
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-12 intro">
-            <h1 class="info">Location & Hours</h1>
-            <p class="info-para">
-              <strong>Address</strong>: 18 Pell St, New York, NY 10013 <br />
-              <strong>Phone</strong>: (212) 608 - 2588 <br />
-              <strong>Mon - Sat</strong> 9:00 A.M. - 8:00 P.M. <br />
-              <strong>Sun</strong> 9:00 A.M. - 7:30 P.M.<br />
-            </p>
-          </div>
-          <div id="map"></div>
-        </div>
+      <div class="gallery-item">
+        <img class="hair" src="img/hair2.jpg" />
       </div>
-    </section>
-
-    <!-- // LOCATION & HOURS -->
-
-    <!-- SERVICES -->
-    <section id="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 intro">
-            <h1 class="services-title">SERVICES</h1>
-            <h2 class="services-title">
-              Experience world-class hair and beauty services
-            </h2>
-            <ul class="services">
-              <li>Men's Haircut<span class="services-span">$25+</span></li>
-              <li>Women's Haircut<span class="services-span">$40+</span></li>
-              <li>
-                Single Process & Blow<span class="services-span">$60+</span>
-              </li>
-              <li>Balayage<span class="services-span">$170+</span></li>
-              <li>Omber<span class="services-span">$170+</span></li>
-              <li>
-                Japanese Straightening<span class="services-span">$230+</span>
-              </li>
-              <li>Digital Perm<span class="services-span">$170+</span></li>
-              <li>Keratin Perm<span class="services-span">$180+</span></li>
-              <li>Regular Perm<span class="services-span">$100+</span></li>
-            </ul>
-          </div>
-        </div>
+      <div class="gallery-item">
+        <video class="video-js gallery-video" controls>
+          <source src="/media/video5.mp4" />
+        </video>
       </div>
-    </section>
-    <!-- // SERVICES -->
-
-    <!-- PORTFOLIO -->
-
-    <section id="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 intro">
-            <h1 class="portfolio-title">PORTFOLIO</h1>
-            <div id="photoArray">
-              <div class="col-5">
-                <img class="hair1" src="img/hair1.jpg" /><img
-                  class="hair2"
-                  src="img/hair2.jpg"
-                />
-              </div>
-              <div class="col-4">
-                <video class="video1 video-js" controls>
-                  <source src="/media/video1.mp4" />
-                </video>
-              </div>
-              <div class="col-6">
-                <video class="video2 video-js" controls>
-                  <source src="/media/video2.mp4" />
-                </video>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="gallery-item">
+        <video class="video-js gallery-video" controls>
+          <source src="/media/video1.mp4" />
+        </video>
       </div>
-    </section>
+      <div class="gallery-item">
+        <img class="hair" src="img/hair7.jpg" />
+      </div>
+      <div class="gallery-item">
+        <img class="hair" src="img/hair3.jpg" />
+      </div>
+      <div class="gallery-item">
+        <video class="video-js gallery-video" controls>
+          <source src="/media/video4.mp4" />
+        </video>
+      </div>
+      <div class="gallery-item">
+        <img class="hair" src="img/hair6.jpg" />
+      </div>
 
-    <!-- // PORTFOLIO -->
+      <div class="gallery-item">
+        <img class="hair" src="img/hair4.jpg" />
+      </div>
 
-    <script
-      async
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHAf_eNhXT-Wij2AomSKxAVFuwK-Epi50&callback=initMap"
-    ></script>
-    <script src="/js/app.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
-    <script
-      async
-      src="https://pay.google.com/gp/p/js/pay.js"
-      onload="onGooglePayLoaded()"
-    ></script>
-  </body>
-  <footer><a href="https://www.tiktok.com/@keiwaito?_t=8ZikyXj5Hck&_r=1"><img class="tiktok" src="img/tiktok.png">18Pell</a></footer>
+      <div class="gallery-item">
+        <video class="video-js gallery-video" controls>
+          <source src="/media/video2.mp4" />
+        </video>
+      </div>
+      <div class="gallery-item">
+        <img class="hair" src="img/hair8.jpg" />
+      </div>
+      <div class="gallery-item">
+        <img class="hair" src="img/hair5.jpg" />
+      </div>
+      <div class="gallery-item">
+        <video class="video-js gallery-video" controls>
+          <source src="/media/video3.mp4" />
+        </video>
+      </div>
+      <div class="gallery-item">
+        <video class="video-js gallery-video" controls>
+          <source src="/media/video6.mp4" />
+        </video>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- // PORTFOLIO -->
+
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHAf_eNhXT-Wij2AomSKxAVFuwK-Epi50&callback=initMap"></script>
+  <script src="/js/app.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
+  <script async src="https://pay.google.com/gp/p/js/pay.js" onload="onGooglePayLoaded()"></script>
+</body>
+
 </html>
