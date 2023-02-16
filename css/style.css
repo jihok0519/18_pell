@@ -36,6 +36,7 @@ section {
 }
 
 .info {
+    margin: 20px;
     text-align: center;
 }
 
@@ -158,12 +159,17 @@ section {
 
 .services-title {
     text-align: center;
+    margin: 25px;
 }
 
 .services {
     color: white;
     font-size: 30px;
     list-style: none;
+}
+
+.services-selection {
+    margin: 10px;
 }
 
 .services-span {
