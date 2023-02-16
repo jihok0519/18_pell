@@ -21,6 +21,11 @@ body {
     background-color: var(--bg1);
 }
 
+#hero {
+    background: url(/img/cover_1.jpg);
+    background-size: cover;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Dela Gothic One", 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
@@ -62,10 +67,6 @@ section {
 }
 
 /* HERO */
-.carousel-video {
-    width: 100%;
-    height: auto;
-}
 
 .carousel_inner {
     width: 100%;
@@ -106,8 +107,8 @@ section {
 .carousel_img {
     display: block;
     width: 100%;
-    height: auto;
 }
+
 /* BUTTON */
 
 .btn {
@@ -298,5 +299,4 @@ footer {
     text-transform: uppercase;
     opacity: .4;
     font-weight: 200;
-
 }
