@@ -353,6 +353,11 @@ footer {
     margin-top: -20em;
   }
 
+  .appointment-btn {
+    background: white;
+    color: black;
+  }
+
   .review-content {
     font-size: 1rem;
   }
@@ -386,6 +391,11 @@ footer {
 
   .btn {
     margin-top: -20em;
+  }
+
+  .appointment-btn {
+    background: white;
+    color: black;
   }
 
   .review-content {
