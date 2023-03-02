@@ -337,7 +337,7 @@ footer {
   font-weight: 200;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   #hero {
     max-width: 100%;
     height: auto;
@@ -369,12 +369,11 @@ footer {
   }
 
   .services-info {
-    font-size: 10px;
-    text-align: center;
+    font-size: 17px !important;
   }
 
   .services-selection {
-    font-size: 16px;
+    font-size: 14px !important;
   }
 }
 
