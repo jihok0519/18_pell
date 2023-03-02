@@ -337,7 +337,7 @@ footer {
   font-weight: 200;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
   #hero {
     max-width: 100%;
     height: auto;
